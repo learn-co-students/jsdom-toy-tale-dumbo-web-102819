@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 10
     },
     {
       "id": 2,
@@ -47,6 +47,24 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": -2
+    },
+    {
+      "name": "bearZZZZ",
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj35vOU5bDmAhWNVc0KHSy_AFUQjRx6BAgBEAQ&url=https%3A%2F%2Ffaoschwarz.com%2Fcollections%2Fbears&psig=AOvVaw0-YY00LuF6F4IIXf2RtEvQ&ust=1576263472632744",
+      "likes": 0,
+      "id": 9
+    },
+    {
+      "name": "asdf",
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj35vOU5bDmAhWNVc0KHSy_AFUQjRx6BAgBEAQ&url=https%3A%2F%2Ffaoschwarz.com%2Fcollections%2Fbears&psig=AOvVaw0-YY00LuF6F4IIXf2RtEvQ&ust=1576263472632744",
+      "likes": 0,
+      "id": 10
+    },
+    {
+      "name": "asdf",
+      "image": "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwj35vOU5bDmAhWNVc0KHSy_AFUQjRx6BAgBEAQ&url=https%3A%2F%2Ffaoschwarz.com%2Fcollections%2Fbears&psig=AOvVaw0-YY00LuF6F4IIXf2RtEvQ&ust=1576263472632744",
+      "likes": 0,
+      "id": 11
     }
   ]
 }
