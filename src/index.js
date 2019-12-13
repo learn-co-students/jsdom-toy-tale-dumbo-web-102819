@@ -32,7 +32,31 @@ function takeJSONtoHTML(toy){
       <p> ${toy.likes} Likes </p>
       <button class="like-btn">Like <3</button>`
   toyCollection.append(newDiv)
+
+// Eric code:
+  let likeBtn = newDiv.querySelector(".like-btn")
+  let toyP = newDiv.querySelector("p")
+  console.log("p", toyP);
+  likeBtn.addEventListener("click", (arguments) => {
+    toy.likes = toy.likes + 1;
+
+    fetch(`http://localhost:3000/toys/${toy.id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type" : 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({ //can also stringify the whole toy object, but bad practice > can be problematic if object is too large
+        likes: toy.likes
+      })
+    })
+    .then(r => r.json())
+    .then(updatedToy => {
+      toyP.innerText = `${updatedToy.likes} Likes`
+    })
+  })
   }
+  // end eric
 
   toyForm.addEventListener('submit', (evt) => { evt.preventDefault()
 
